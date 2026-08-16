@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6a379a16-7904-4687-bf10-a23fb399eb9e"
+      }
+    },
+    "owner": "kwasnakiwis-team"
   }
 }

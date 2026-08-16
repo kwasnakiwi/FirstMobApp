@@ -1,0 +1,17 @@
+import React from 'react';
+import {View, Text} from 'react-native';
+import {Link} from "expo-router";
+import {SafeAreaView as RNSafeAreaView} from "react-native-safe-area-context";
+import {styled} from "react-native-css";
+
+const SafeAreaView = styled(RNSafeAreaView);
+
+const Subscriptions = () => {
+    return (
+        <SafeAreaView className="flex-1 bg-subscription p-5">
+            <Text className="font-black text-4xl" >Subscriptions</Text>
+        </SafeAreaView>
+    );
+}
+
+export default Subscriptions;
